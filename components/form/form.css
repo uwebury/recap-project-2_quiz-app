@@ -5,3 +5,7 @@
 .form > * {
   margin: 0 0 2rem;
 }
+
+.form__button {
+  text-align: center;
+}
