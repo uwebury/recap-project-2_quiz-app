@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">Quiz-App</h1>
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <main>
       <ul class="card-list">
@@ -32,7 +33,11 @@
               <li class="card__tag-list-item">#english voices</li>
             </ul>
             <div class="card__button-bookmark">
-              <button class="bookmark" aria-label="bookmark" type="button">
+              <button
+                class="bookmark bookmark--active"
+                aria-label="bookmark"
+                type="button"
+              >
                 <svg
                   class="bookmark__icon"
                   xmlns="http://www.w3.org/2000/svg"
