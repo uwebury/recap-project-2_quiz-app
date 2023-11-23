@@ -12,10 +12,39 @@
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
-    <main><h2>test</h2></main>
+    <main class="form">
+      <form data-js="form">
+        <fieldset>
+          <legend>Your question:</legend>
+          <label for="your-question" hidden>Your question</label>
+          <textarea
+            name="yourQuestion"
+            id="your-question"
+            rows="4"
+            cols="30"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Your answer:</legend>
+          <label for="your-answer" hidden>Your answer</label>
+          <textarea
+            name="yourAnswer"
+            id="your-answer"
+            rows="4"
+            cols="30"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Tags:</legend>
+          <label for="question-tags" hidden>Tags</label>
+          <textarea name="questionTags" id="question-tags" cols="30"></textarea>
+        </fieldset>
+        <button>Submit</button>
+      </form>
+    </main>
     <nav class="navigation">
       <ul class="navigation__list">
-        <li class="navigation__list-item navigation__list-item--active">
+        <li class="navigation__list-item">
           <a
             class="navigation__link"
             href="/index.html"
@@ -51,7 +80,7 @@
             </svg>
           </a>
         </li>
-        <li class="navigation__list-item">
+        <li class="navigation__list-item navigation__list-item--active">
           <a
             class="navigation__link"
             href="/form.html"
